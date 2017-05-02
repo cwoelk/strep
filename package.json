@@ -1,0 +1,32 @@
+{
+  "name": "strep",
+  "version": "1.0.0",
+  "description": "Tiny and fast string replacer utility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js",
+    "cover": "npm test -- --cov --coverage-report=lcov",
+    "benchmark": "node benchmark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwarzkopfb/strep.git"
+  },
+  "keywords": [
+    "string",
+    "replace",
+    "pattern",
+    "format",
+    "regexp"
+  ],
+  "author": "Schwarzkopf Balázs <schwarzkopfb@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schwarzkopfb/strep/issues"
+  },
+  "homepage": "https://github.com/schwarzkopfb/strep#readme",
+  "devDependencies": {
+    "bench": "^0.3.6",
+    "tap": "^10.3.2"
+  }
+}
