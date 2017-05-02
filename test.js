@@ -3,6 +3,8 @@
 var test  = require('tap'),
     strep = require('./')
 
+test.equals(strep('')(), '')
+test.equals(strep('Hello World!')(), 'Hello World!')
 test.equals(strep('{0}')([ 'Hello World!' ]), 'Hello World!')
 test.equals(strep('Hello World!{0}')([]), 'Hello World!')
 test.equals(strep('{0}Hello World!{0}')([]), 'Hello World!')
